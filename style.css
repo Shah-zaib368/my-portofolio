@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  padding: 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.300);
+  box-shadow: 0px 0px 20px 0px rgba(255, 68, 0, 0.671);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  gap: 60px;
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.myport:hover {
+  color: orange;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+nav span {
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(assests/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image {
+  min-width: 50%;
+  margin: 40px 0px 0px 40px;
+  display: contents;
+  justify-content: center;
+}
+
+.hero {
+  min-width: 35%;
+  padding-top: 150px;
+  margin-left: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.my {
+  font-size: 90px;
+}
+
+.portofolio {
+  font-size: 90px;
+  margin-bottom: 50px;
+}
+
+p {
+  word-spacing: 2px;
+  font-size: 25px;
+}
+
+.my-name:hover {
+  color: orangered;
+}
+
+.my-portofolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore {
+  width: 40%;
+  text-align: center;
+  padding: 6px;
+  font-size: 27px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: orangered;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.explore:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 20px 3px white;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+
+.main2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(assests/img2.jpg);
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  padding-top: 46px;
+  background-repeat: no-repeat;
+}
+
+.aboutme {
+  padding-left: 308px;
+  display: inline-block;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  padding-top: 40px;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.intro1 {
+  padding-left: 200px;
+  font-size: 1rem;
+  width: 67%;
+  font-weight: lighter;
+}
+
+.what-i-do {
+  font-size: 20px;
+  width: fit-content;
+  margin: auto;
+}
+
+.specification {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 100%;
+  font-weight: lighter;
+}
+
+.specification1 {
+  padding-top: 20px;
+  list-style: square;
+  width: fit-content;
+  padding-left: 0px;
+  margin: auto;
+  gap: 0px;
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.main3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(assests/img3.png);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+}
+
+.ed-and-ex {
+  color: white;
+  font-size: 5rem;
+  width: fit-content;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 20px;
+  margin: auto;
+  transition: all 0.3s ease;
+
+}
+
+.and {
+  color: orangered;
+}
+
+.ed-and-ex-1 {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15rem;
+  margin: auto;
+}
+
+.education {
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.education h2, .experience h2{
+  margin-bottom: 2rem;
+}
+
+.experience {
+  color: white;
+  font-size: 2rem;
+width: 30%;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.main4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651)),
+    url(assests/img4.jpg);
+  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 5em;
+  color: white;
+}
+
+.my-skills {
+  color: white;
+  font-size: 5rem;
+  padding-left: 10rem;
+  padding-bottom: 3rem;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 2px;
+  transition: all 0.3s ease;
+}
+
+.skill1 , .skill2 {
+  margin: auto;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  min-width: 100%;
+  justify-content: center;
+}
+.num{
+  color: orangered;
+}
+.frontend h2 , .backend h2, .database h2, .othertools h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.frontend, .backend, .database, .othertools{
+  width: 400px;
+}
+.frontend, .othertools{
+  margin-bottom: 2rem;
+}
+.frontend ul, .backend ul, .database ul, .othertools ul  {
+  padding-left: 5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.frontend ul li::marker,
+.othertools ul li::marker, 
+.backend ul li::marker,
+ .database ul li::marker,
+  .mern-authentication ul li::marker,
+  .e-commerce ul li::marker,
+  .todo-app ul li::marker,
+  .blog ul li::marker {
+  color: orangered;       
+}
+.main5{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.692)) ,url(assests/img5.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.my-project{
+    color: white;
+  font-size: 5rem;
+  padding-left: 10rem;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 2px;
+  padding-top: 4rem ;
+  width: 100%;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+.project1{
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin: auto;
+}
+.project2{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.main5{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mern-authentication, .e-commerce,
+.todo-app, .blog {
+  width: 600px;
+}
+.mern-authentication ul, .e-commerce ul,
+.todo-app ul, .blog ul {
+  padding-left: 3rem;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.mern-authentication h2, .e-commerce h2,
+.todo-app h2, .blog h2{
+  margin-bottom: 2rem;
+}
+.scale:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 20px orangered ;
+}
